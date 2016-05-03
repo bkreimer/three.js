@@ -35,7 +35,7 @@
 			drag equirectangular texture into the page.
 		</div>
 
-		<script src="../build/three.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r57/three.min.js"></script>
 
 		<script>
 
@@ -65,7 +65,7 @@
 				geometry.scale( - 1, 1, 1 );
 
 				var material = new THREE.MeshBasicMaterial( {
-					map: new THREE.TextureLoader().load( 'textures/2294472375_24a3b8ef46_o.jpg' )
+					map: new THREE.TextureLoader().load( 'http://www.omnidea.net/animation2/textures/2294472375_24a3b8ef46_o.jpg' )
 				} );
 
 				mesh = new THREE.Mesh( geometry, material );
